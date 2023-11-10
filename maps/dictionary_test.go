@@ -1,5 +1,6 @@
 package main
 
+
 import "testing"
 
 func TestSearch(t *testing.T) {
@@ -37,3 +38,4 @@ func assertString(t testing.TB, got, want string) {
 		t.Errorf("got %q want %q given, %q", got, want, "test")
 	}
 }
+
